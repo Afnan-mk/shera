@@ -5,7 +5,7 @@ body {
 
 .cover {
   height: 935px;
-  background: linear-gradient(to right, #ffffff 0%, #000000 250%);
+  background: #cbcbcb;
   position: relative;
 }
 
