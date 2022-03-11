@@ -54,6 +54,7 @@
   }
   .big-nav {
     background-color: rgba(255, 255, 255, 0.9);
+    top: 0;
     padding: 15px 0;
   }
   .sidebar-menu {
@@ -125,6 +126,15 @@
   .slider-1-navControl div {
     margin-left: 8px;
   }
+  .home-news > div {
+    width: 70%;
+  }
+  .social {
+    left: 25px;
+  }
+  .up {
+    right: 25px;
+  }
 }
 @media (max-width: 490px) {
   .home-news__news1,
@@ -132,6 +142,9 @@
     margin-right: 10px;
     margin-bottom: 10px;
   }
+  .home-news > div {
+    width: 75%;
+}
 }
 @media (max-width: 425px) {
   .basic-nav {
@@ -147,8 +160,8 @@
   .slider-1-navControl div {
     margin-left: 5px;
   }
-  .social {
-    left: 30px;
+  .home-news > div {
+    width: 85%;
   }
   .home-about-tittle .container,
   .home-products__tittle p,
@@ -160,8 +173,11 @@
   .slider-2__prev {
     bottom: 8px;
   }
+  .social {
+    left: 20px;
+  }
   .up {
-    right: 30px;
+    right: 20px;
   }
 }
 
@@ -197,24 +213,9 @@
     left: 0.5%;
   }
 }
-@media (min-width: 1085px) and (max-width: 1297px) {
-  .nav-bar__menu > ul > li > a {
-    font-size: 15px;
-  }
-  .basic-nav {
-    padding: 0px 20px;
-  }
-}
-@media (min-width: 1085px) and (max-width: 1173px) {
-  .big-nav {
-    width: 95%;
-    left: 2.5%;
-  }
-  .basic-nav {
-    padding: 0px 15px;
-  }
+@media (min-width: 1024px) and (max-width: 1045px) {
   .nav-bar__menu > ul > li {
-    margin-left: 14px;
+    margin-left: 24px;
   }
 }
 @media (max-width: 280px) {
